@@ -1,0 +1,4 @@
+<launch>
+<include file = "%(find turtlebot3_bringup)/launch/turtlebot3_model.launch"></include>
+<node name="ourcode" pkg="rbe3002_lab2" type="lab2.py"></node>
+</launch>
